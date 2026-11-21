@@ -1,0 +1,562 @@
+[
+  {
+    "lgd_code": "610001",
+    "village_name": "Kyathsandra Village",
+    "kannada_name": "\u0c95\u0ccd\u0caf\u0cbe\u0ca4\u0cb8\u0c82\u0ca6\u0ccd\u0cb0",
+    "gp_name": "Kyathsandra Rural",
+    "hobli": "Kasaba Hobli",
+    "pincode": "572104",
+    "lat": 13.318,
+    "lng": 77.138
+  },
+  {
+    "lgd_code": "610002",
+    "village_name": "Belagumba",
+    "kannada_name": "\u0cac\u0cc6\u0cb3\u0c97\u0cc1\u0c82\u0cac",
+    "gp_name": "Belagumba",
+    "hobli": "Kasaba Hobli",
+    "pincode": "572103",
+    "lat": 13.355,
+    "lng": 77.125
+  },
+  {
+    "lgd_code": "610003",
+    "village_name": "Agalakote",
+    "kannada_name": "\u0c85\u0c97\u0cb3\u0c95\u0ccb\u0c9f\u0cc6",
+    "gp_name": "Agalakote",
+    "hobli": "Kasaba Hobli",
+    "pincode": "572107",
+    "lat": 13.362,
+    "lng": 77.081
+  },
+  {
+    "lgd_code": "610004",
+    "village_name": "Pandithanahalli",
+    "kannada_name": "\u0caa\u0c82\u0ca1\u0cbf\u0ca4\u0ca8\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+    "gp_name": "Pandithanahalli",
+    "hobli": "Kasaba Hobli",
+    "pincode": "572104",
+    "lat": 13.314,
+    "lng": 77.142
+  },
+  {
+    "lgd_code": "610005",
+    "village_name": "Mallasandra",
+    "kannada_name": "\u0cae\u0cb2\u0ccd\u0cb2\u0cb8\u0c82\u0ca6\u0ccd\u0cb0",
+    "gp_name": "Mallasandra",
+    "hobli": "Kasaba Hobli",
+    "pincode": "572107",
+    "lat": 13.365,
+    "lng": 77.072
+  },
+  {
+    "lgd_code": "610006",
+    "village_name": "Gollahalli",
+    "kannada_name": "\u0c97\u0cca\u0cb2\u0ccd\u0cb2\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+    "gp_name": "Gollahalli",
+    "hobli": "Kasaba Hobli",
+    "pincode": "572104",
+    "lat": 13.325,
+    "lng": 77.145
+  },
+  {
+    "lgd_code": "610007",
+    "village_name": "Siddapura",
+    "kannada_name": "\u0cb8\u0cbf\u0ca6\u0ccd\u0ca6\u0cbe\u0caa\u0cc1\u0cb0",
+    "gp_name": "Kyathsandra Rural",
+    "hobli": "Kasaba Hobli",
+    "pincode": "572104",
+    "lat": 13.312,
+    "lng": 77.132
+  },
+  {
+    "lgd_code": "610008",
+    "village_name": "Lingapura",
+    "kannada_name": "\u0cb2\u0cbf\u0c82\u0c97\u0cbe\u0caa\u0cc1\u0cb0",
+    "gp_name": "Belagumba",
+    "hobli": "Kasaba Hobli",
+    "pincode": "572103",
+    "lat": 13.359,
+    "lng": 77.129
+  },
+  {
+    "lgd_code": "610009",
+    "village_name": "Bommenahalli",
+    "kannada_name": "\u0cac\u0cca\u0cae\u0ccd\u0cae\u0cc7\u0ca8\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+    "gp_name": "Agalakote",
+    "hobli": "Kasaba Hobli",
+    "pincode": "572107",
+    "lat": 13.368,
+    "lng": 77.086
+  },
+  {
+    "lgd_code": "610010",
+    "village_name": "Kalasipalya",
+    "kannada_name": "\u0c95\u0cb2\u0cbe\u0cb8\u0cbf\u0caa\u0cbe\u0cb3\u0ccd\u0caf",
+    "gp_name": "Pandithanahalli",
+    "hobli": "Kasaba Hobli",
+    "pincode": "572104",
+    "lat": 13.309,
+    "lng": 77.14
+  },
+  {
+    "lgd_code": "610011",
+    "village_name": "Siragate Rural",
+    "kannada_name": "\u0cb6\u0cbf\u0cb0\u0cbe \u0c97\u0cc7\u0c9f\u0ccd \u0c97\u0ccd\u0cb0\u0cbe\u0cae\u0cc0\u0ca3",
+    "gp_name": "Mallasandra",
+    "hobli": "Kasaba Hobli",
+    "pincode": "572106",
+    "lat": 13.371,
+    "lng": 77.085
+  },
+  {
+    "lgd_code": "610012",
+    "village_name": "Chikkathotadagadde",
+    "kannada_name": "\u0c9a\u0cbf\u0c95\u0ccd\u0c95\u0ca4\u0ccb\u0c9f\u0ca6\u0c97\u0ca6\u0ccd\u0ca6\u0cc6",
+    "gp_name": "Gollahalli",
+    "hobli": "Kasaba Hobli",
+    "pincode": "572104",
+    "lat": 13.329,
+    "lng": 77.149
+  },
+  {
+    "lgd_code": "610062",
+    "village_name": "Oorkere",
+    "kannada_name": "\u0c8a\u0cb0\u0cc1\u0c95\u0cc6\u0cb0\u0cc6",
+    "gp_name": "Oorkere",
+    "hobli": "Kasaba Hobli",
+    "pincode": "572106",
+    "lat": 13.368,
+    "lng": 77.105
+  },
+  {
+    "lgd_code": "610013",
+    "village_name": "Gulur",
+    "kannada_name": "\u0c97\u0cc2\u0cb3\u0cc2\u0cb0\u0cc1",
+    "gp_name": "Gulur",
+    "hobli": "Gulur Hobli",
+    "pincode": "572118",
+    "lat": 13.298,
+    "lng": 77.088
+  },
+  {
+    "lgd_code": "610014",
+    "village_name": "Palasandra",
+    "kannada_name": "\u0caa\u0cbe\u0cb2\u0cb8\u0c82\u0ca6\u0ccd\u0cb0",
+    "gp_name": "Palasandra",
+    "hobli": "Gulur Hobli",
+    "pincode": "572118",
+    "lat": 13.285,
+    "lng": 77.092
+  },
+  {
+    "lgd_code": "610015",
+    "village_name": "Manchakalkuppe",
+    "kannada_name": "\u0cae\u0c82\u0c9a\u0c95\u0cb2\u0ccd\u0c95\u0cc1\u0caa\u0ccd\u0caa\u0cc6",
+    "gp_name": "Manchakalkuppe",
+    "hobli": "Gulur Hobli",
+    "pincode": "572118",
+    "lat": 13.291,
+    "lng": 77.078
+  },
+  {
+    "lgd_code": "610016",
+    "village_name": "Kondli",
+    "kannada_name": "\u0c95\u0cca\u0c82\u0ca1\u0ccd\u0cb2\u0cbf",
+    "gp_name": "Kondli",
+    "hobli": "Gulur Hobli",
+    "pincode": "572118",
+    "lat": 13.279,
+    "lng": 77.082
+  },
+  {
+    "lgd_code": "610017",
+    "village_name": "Bannikuppe",
+    "kannada_name": "\u0cac\u0ca8\u0ccd\u0ca8\u0cbf\u0c95\u0cc1\u0caa\u0ccd\u0caa\u0cc6",
+    "gp_name": "Bannikuppe",
+    "hobli": "Gulur Hobli",
+    "pincode": "572118",
+    "lat": 13.272,
+    "lng": 77.095
+  },
+  {
+    "lgd_code": "610018",
+    "village_name": "Albur",
+    "kannada_name": "\u0c86\u0cb2\u0ccd\u0cac\u0cc2\u0cb0\u0cc1",
+    "gp_name": "Albur",
+    "hobli": "Gulur Hobli",
+    "pincode": "572118",
+    "lat": 13.268,
+    "lng": 77.071
+  },
+  {
+    "lgd_code": "610019",
+    "village_name": "Nagavalli",
+    "kannada_name": "\u0ca8\u0cbe\u0c97\u0cb5\u0cb2\u0ccd\u0cb2\u0cbf",
+    "gp_name": "Nagavalli",
+    "hobli": "Gulur Hobli",
+    "pincode": "572118",
+    "lat": 13.284,
+    "lng": 77.058
+  },
+  {
+    "lgd_code": "610020",
+    "village_name": "Kalinganahalli",
+    "kannada_name": "\u0c95\u0cbe\u0cb3\u0cbf\u0c82\u0c97\u0ca8\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+    "gp_name": "Gulur",
+    "hobli": "Gulur Hobli",
+    "pincode": "572118",
+    "lat": 13.302,
+    "lng": 77.094
+  },
+  {
+    "lgd_code": "610021",
+    "village_name": "Malleshapura",
+    "kannada_name": "\u0cae\u0cb2\u0ccd\u0cb2\u0cc7\u0cb6\u0caa\u0cc1\u0cb0",
+    "gp_name": "Palasandra",
+    "hobli": "Gulur Hobli",
+    "pincode": "572118",
+    "lat": 13.281,
+    "lng": 77.099
+  },
+  {
+    "lgd_code": "610022",
+    "village_name": "Siddaragadde",
+    "kannada_name": "\u0cb8\u0cbf\u0ca6\u0ccd\u0ca6\u0cb0\u0c97\u0ca6\u0ccd\u0ca6\u0cc6",
+    "gp_name": "Manchakalkuppe",
+    "hobli": "Gulur Hobli",
+    "pincode": "572118",
+    "lat": 13.295,
+    "lng": 77.073
+  },
+  {
+    "lgd_code": "610023",
+    "village_name": "Basavanahalli",
+    "kannada_name": "\u0cac\u0cb8\u0cb5\u0ca8\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+    "gp_name": "Nagavalli",
+    "hobli": "Gulur Hobli",
+    "pincode": "572118",
+    "lat": 13.289,
+    "lng": 77.052
+  },
+  {
+    "lgd_code": "610024",
+    "village_name": "Bellavi Town",
+    "kannada_name": "\u0cac\u0cc6\u0cb3\u0ccd\u0cb3\u0cbe\u0cb5\u0cbf",
+    "gp_name": "Bellavi",
+    "hobli": "Bellavi Hobli",
+    "pincode": "572128",
+    "lat": 13.415,
+    "lng": 77.018
+  },
+  {
+    "lgd_code": "610025",
+    "village_name": "Chelur",
+    "kannada_name": "\u0c9a\u0cc7\u0cb3\u0cc2\u0cb0\u0cc1",
+    "gp_name": "Chelur",
+    "hobli": "Bellavi Hobli",
+    "pincode": "572117",
+    "lat": 13.432,
+    "lng": 76.995
+  },
+  {
+    "lgd_code": "610026",
+    "village_name": "Honnudike",
+    "kannada_name": "\u0cb9\u0cca\u0ca8\u0ccd\u0ca8\u0cc1\u0ca1\u0cbf\u0c95\u0cc6",
+    "gp_name": "Honnudike",
+    "hobli": "Bellavi Hobli",
+    "pincode": "572122",
+    "lat": 13.385,
+    "lng": 77.042
+  },
+  {
+    "lgd_code": "610027",
+    "village_name": "Thumbadi",
+    "kannada_name": "\u0ca4\u0cc1\u0c82\u0cac\u0cbe\u0ca1\u0cbf",
+    "gp_name": "Thumbadi",
+    "hobli": "Bellavi Hobli",
+    "pincode": "572128",
+    "lat": 13.425,
+    "lng": 77.035
+  },
+  {
+    "lgd_code": "610028",
+    "village_name": "Sorekunthe",
+    "kannada_name": "\u0cb8\u0ccb\u0cb0\u0cc6\u0c95\u0cc1\u0c82\u0c9f\u0cc6",
+    "gp_name": "Sorekunthe",
+    "hobli": "Bellavi Hobli",
+    "pincode": "572128",
+    "lat": 13.408,
+    "lng": 77.009
+  },
+  {
+    "lgd_code": "610029",
+    "village_name": "Thimmarajanahalli",
+    "kannada_name": "\u0ca4\u0cbf\u0cae\u0ccd\u0cae\u0cb0\u0cbe\u0c9c\u0ca8\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+    "gp_name": "Thimmarajanahalli",
+    "hobli": "Bellavi Hobli",
+    "pincode": "572128",
+    "lat": 13.419,
+    "lng": 77.025
+  },
+  {
+    "lgd_code": "610030",
+    "village_name": "Chikkanahalli",
+    "kannada_name": "\u0c9a\u0cbf\u0c95\u0ccd\u0c95\u0ca8\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+    "gp_name": "Bellavi",
+    "hobli": "Bellavi Hobli",
+    "pincode": "572128",
+    "lat": 13.412,
+    "lng": 77.022
+  },
+  {
+    "lgd_code": "610031",
+    "village_name": "Mallenahalli",
+    "kannada_name": "\u0cae\u0cb2\u0ccd\u0cb2\u0cc7\u0ca8\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+    "gp_name": "Chelur",
+    "hobli": "Bellavi Hobli",
+    "pincode": "572117",
+    "lat": 13.438,
+    "lng": 76.989
+  },
+  {
+    "lgd_code": "610032",
+    "village_name": "Doddamalligere",
+    "kannada_name": "\u0ca6\u0cca\u0ca1\u0ccd\u0ca1\u0cae\u0cb2\u0ccd\u0cb2\u0cbf\u0c97\u0cc6\u0cb0\u0cc6",
+    "gp_name": "Honnudike",
+    "hobli": "Bellavi Hobli",
+    "pincode": "572122",
+    "lat": 13.389,
+    "lng": 77.048
+  },
+  {
+    "lgd_code": "610033",
+    "village_name": "Hebbur",
+    "kannada_name": "\u0cb9\u0cc6\u0cac\u0ccd\u0cac\u0cc2\u0cb0\u0cc1",
+    "gp_name": "Hebbur",
+    "hobli": "Hebbur Hobli",
+    "pincode": "572120",
+    "lat": 13.218,
+    "lng": 77.035
+  },
+  {
+    "lgd_code": "610034",
+    "village_name": "Gulharive",
+    "kannada_name": "\u0c97\u0cc1\u0cb2\u0ccd\u0cb9\u0cb0\u0cbf\u0cb5\u0cc6",
+    "gp_name": "Gulharive",
+    "hobli": "Hebbur Hobli",
+    "pincode": "572120",
+    "lat": 13.205,
+    "lng": 77.041
+  },
+  {
+    "lgd_code": "610035",
+    "village_name": "Doddaguni",
+    "kannada_name": "\u0ca6\u0cca\u0ca1\u0ccd\u0ca1\u0c97\u0cc1\u0ca3\u0cbf",
+    "gp_name": "Doddaguni",
+    "hobli": "Hebbur Hobli",
+    "pincode": "572120",
+    "lat": 13.224,
+    "lng": 77.021
+  },
+  {
+    "lgd_code": "610036",
+    "village_name": "Niduvanda",
+    "kannada_name": "\u0ca8\u0cbf\u0ca1\u0cc1\u0cb5\u0c82\u0ca6",
+    "gp_name": "Niduvanda",
+    "hobli": "Hebbur Hobli",
+    "pincode": "572120",
+    "lat": 13.231,
+    "lng": 77.049
+  },
+  {
+    "lgd_code": "610037",
+    "village_name": "Yelerampura",
+    "kannada_name": "\u0caf\u0cc6\u0cb2\u0cc6\u0cb0\u0cbe\u0c82\u0caa\u0cc1\u0cb0",
+    "gp_name": "Yelerampura",
+    "hobli": "Hebbur Hobli",
+    "pincode": "572120",
+    "lat": 13.212,
+    "lng": 77.018
+  },
+  {
+    "lgd_code": "610038",
+    "village_name": "Gubbigate",
+    "kannada_name": "\u0c97\u0cc1\u0cac\u0ccd\u0cac\u0cbf\u0c97\u0cc7\u0c9f\u0ccd",
+    "gp_name": "Gubbigate",
+    "hobli": "Hebbur Hobli",
+    "pincode": "572120",
+    "lat": 13.238,
+    "lng": 77.038
+  },
+  {
+    "lgd_code": "610039",
+    "village_name": "Koppa",
+    "kannada_name": "\u0c95\u0cca\u0caa\u0ccd\u0caa",
+    "gp_name": "Hebbur",
+    "hobli": "Hebbur Hobli",
+    "pincode": "572120",
+    "lat": 13.214,
+    "lng": 77.039
+  },
+  {
+    "lgd_code": "610040",
+    "village_name": "Singonahalli",
+    "kannada_name": "\u0cb8\u0cbf\u0c82\u0c97\u0ccb\u0ca8\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+    "gp_name": "Gulharive",
+    "hobli": "Hebbur Hobli",
+    "pincode": "572120",
+    "lat": 13.199,
+    "lng": 77.045
+  },
+  {
+    "lgd_code": "610041",
+    "village_name": "Kora",
+    "kannada_name": "\u0c95\u0ccb\u0cb0",
+    "gp_name": "Kora",
+    "hobli": "Kora Hobli",
+    "pincode": "572128",
+    "lat": 13.435,
+    "lng": 77.098
+  },
+  {
+    "lgd_code": "610042",
+    "village_name": "Brahmasandra",
+    "kannada_name": "\u0cac\u0ccd\u0cb0\u0cb9\u0ccd\u0cae\u0cb8\u0c82\u0ca6\u0ccd\u0cb0",
+    "gp_name": "Brahmasandra",
+    "hobli": "Kora Hobli",
+    "pincode": "572128",
+    "lat": 13.448,
+    "lng": 77.085
+  },
+  {
+    "lgd_code": "610043",
+    "village_name": "Kestur",
+    "kannada_name": "\u0c95\u0cc6\u0cb8\u0ccd\u0ca4\u0cc2\u0cb0\u0cc1",
+    "gp_name": "Kestur",
+    "hobli": "Kora Hobli",
+    "pincode": "572138",
+    "lat": 13.455,
+    "lng": 77.112
+  },
+  {
+    "lgd_code": "610044",
+    "village_name": "Geddalahalli",
+    "kannada_name": "\u0c97\u0cc6\u0ca6\u0ccd\u0ca6\u0cb2\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+    "gp_name": "Geddalahalli",
+    "hobli": "Kora Hobli",
+    "pincode": "572128",
+    "lat": 13.428,
+    "lng": 77.105
+  },
+  {
+    "lgd_code": "610045",
+    "village_name": "Halnur",
+    "kannada_name": "\u0cb9\u0cbe\u0cb2\u0ccd\u0ca8\u0cc2\u0cb0\u0cc1",
+    "gp_name": "Halnur",
+    "hobli": "Kora Hobli",
+    "pincode": "572128",
+    "lat": 13.442,
+    "lng": 77.072
+  },
+  {
+    "lgd_code": "610046",
+    "village_name": "Channiganahalli",
+    "kannada_name": "\u0c9a\u0ca8\u0ccd\u0ca8\u0cbf\u0c97\u0ca8\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+    "gp_name": "Channiganahalli",
+    "hobli": "Kora Hobli",
+    "pincode": "572128",
+    "lat": 13.431,
+    "lng": 77.089
+  },
+  {
+    "lgd_code": "610047",
+    "village_name": "Madapura",
+    "kannada_name": "\u0cae\u0cbe\u0ca6\u0cbe\u0caa\u0cc1\u0cb0",
+    "gp_name": "Kora",
+    "hobli": "Kora Hobli",
+    "pincode": "572128",
+    "lat": 13.439,
+    "lng": 77.102
+  },
+  {
+    "lgd_code": "610048",
+    "village_name": "Urdigere",
+    "kannada_name": "\u0c8a\u0cb0\u0ccd\u0ca1\u0cbf\u0c97\u0cc6\u0cb0\u0cc6",
+    "gp_name": "Urdigere",
+    "hobli": "Urdigere Hobli",
+    "pincode": "572140",
+    "lat": 13.382,
+    "lng": 77.195
+  },
+  {
+    "lgd_code": "610049",
+    "village_name": "Devarayanadurga",
+    "kannada_name": "\u0ca6\u0cc7\u0cb5\u0cb0\u0cbe\u0caf\u0ca8\u0ca6\u0cc1\u0cb0\u0ccd\u0c97",
+    "gp_name": "Devarayanadurga",
+    "hobli": "Urdigere Hobli",
+    "pincode": "572140",
+    "lat": 13.372,
+    "lng": 77.21
+  },
+  {
+    "lgd_code": "610050",
+    "village_name": "Yediyur Rural",
+    "kannada_name": "\u0caf\u0ca1\u0cbf\u0caf\u0cc2\u0cb0\u0cc1 \u0c97\u0ccd\u0cb0\u0cbe\u0cae\u0cc0\u0ca3",
+    "gp_name": "Yediyur Rural",
+    "hobli": "Urdigere Hobli",
+    "pincode": "572140",
+    "lat": 13.365,
+    "lng": 77.185
+  },
+  {
+    "lgd_code": "610051",
+    "village_name": "Hirehalli Rural",
+    "kannada_name": "\u0cb9\u0cbf\u0cb0\u0cc7\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf \u0c97\u0ccd\u0cb0\u0cbe\u0cae\u0cc0\u0ca3",
+    "gp_name": "Hirehalli Rural",
+    "hobli": "Urdigere Hobli",
+    "pincode": "572168",
+    "lat": 13.305,
+    "lng": 77.155
+  },
+  {
+    "lgd_code": "610052",
+    "village_name": "Thimmalapura",
+    "kannada_name": "\u0ca4\u0cbf\u0cae\u0ccd\u0cae\u0cb2\u0cbe\u0caa\u0cc1\u0cb0",
+    "gp_name": "Thimmalapura",
+    "hobli": "Urdigere Hobli",
+    "pincode": "572140",
+    "lat": 13.391,
+    "lng": 77.202
+  },
+  {
+    "lgd_code": "610053",
+    "village_name": "Kallambella Rural",
+    "kannada_name": "\u0c95\u0cb2\u0ccd\u0cb2\u0c82\u0cac\u0cc6\u0cb2\u0ccd\u0cb2 \u0c97\u0ccd\u0cb0\u0cbe\u0cae\u0cc0\u0ca3",
+    "gp_name": "Kallambella Rural",
+    "hobli": "Urdigere Hobli",
+    "pincode": "572140",
+    "lat": 13.378,
+    "lng": 77.178
+  },
+  {
+    "lgd_code": "610054",
+    "village_name": "Durgada Nagenahalli",
+    "kannada_name": "\u0ca6\u0cc1\u0cb0\u0ccd\u0c97\u0ca6 \u0ca8\u0cbe\u0c97\u0cc7\u0ca8\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+    "gp_name": "Durgada Nagenahalli",
+    "hobli": "Urdigere Hobli",
+    "pincode": "572140",
+    "lat": 13.369,
+    "lng": 77.218
+  },
+  {
+    "lgd_code": "610055",
+    "village_name": "Kethohalli",
+    "kannada_name": "\u0c95\u0cc7\u0ca4\u0ccb\u0cb9\u0cb3\u0ccd\u0cb3\u0cbf",
+    "gp_name": "Urdigere",
+    "hobli": "Urdigere Hobli",
+    "pincode": "572140",
+    "lat": 13.388,
+    "lng": 77.199
+  }
+]

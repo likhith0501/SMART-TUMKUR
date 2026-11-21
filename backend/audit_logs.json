@@ -1,0 +1,426 @@
+[
+  {
+    "id": "AUD-e5313b",
+    "action": "ADMIN_LOGIN",
+    "performed_by": "likhi",
+    "details": "Administrator logged into Smart Civic Control Center",
+    "target_id": "",
+    "timestamp": "2026-11-21T23:05:48.250667"
+  },
+  {
+    "id": "AUD-b53531",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T23:05:19.741816"
+  },
+  {
+    "id": "AUD-150339",
+    "action": "COMPLAINT_UPDATED",
+    "performed_by": "system",
+    "details": "Complaint #TC24097 set to Resolved",
+    "target_id": "TC24097",
+    "timestamp": "2026-11-21T23:05:06.744767"
+  },
+  {
+    "id": "AUD-49a43d",
+    "action": "ADMIN_LOGIN",
+    "performed_by": "likhi",
+    "details": "Administrator logged into Smart Civic Control Center",
+    "target_id": "",
+    "timestamp": "2026-11-21T23:04:33.454531"
+  },
+  {
+    "id": "AUD-9015e0",
+    "action": "COMPLAINT_CREATED",
+    "performed_by": "9845012345",
+    "details": "Complaint #TC24097 filed in Kyathsandra Village (Kyathsandra Rural)",
+    "target_id": "TC24097",
+    "timestamp": "2026-11-21T23:04:12.253774"
+  },
+  {
+    "id": "AUD-5202ff",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T23:02:15.495213"
+  },
+  {
+    "id": "AUD-097352",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:59:59.576827"
+  },
+  {
+    "id": "AUD-b85a7f",
+    "action": "ADMIN_LOGIN",
+    "performed_by": "likhi",
+    "details": "Administrator logged into Smart Civic Control Center",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:59:51.460827"
+  },
+  {
+    "id": "AUD-5e5026",
+    "action": "STAFF_LOGIN",
+    "performed_by": "staff1",
+    "details": "Staff logged in (Road and Infrastructure Department)",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:59:41.717816"
+  },
+  {
+    "id": "AUD-4295e1",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:58:46.741834"
+  },
+  {
+    "id": "AUD-abe8ea",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:57:11.362582"
+  },
+  {
+    "id": "AUD-97b4e2",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:55:50.193274"
+  },
+  {
+    "id": "AUD-9daf3c",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:54:41.220121"
+  },
+  {
+    "id": "AUD-ad755e",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:53:26.459254"
+  },
+  {
+    "id": "AUD-d33983",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:48:50.124383"
+  },
+  {
+    "id": "AUD-6a9141",
+    "action": "ADMIN_LOGIN",
+    "performed_by": "likhi",
+    "details": "Administrator logged into Smart Civic Control Center",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:48:43.202243"
+  },
+  {
+    "id": "AUD-d2c046",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:48:12.018263"
+  },
+  {
+    "id": "AUD-172bff",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:48:02.048908"
+  },
+  {
+    "id": "AUD-e40274",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:46:08.214180"
+  },
+  {
+    "id": "AUD-1f6b9d",
+    "action": "STAFF_LOGIN",
+    "performed_by": "staff1",
+    "details": "Staff logged in (Road and Infrastructure Department)",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:45:23.046715"
+  },
+  {
+    "id": "AUD-cb7617",
+    "action": "ADMIN_LOGIN",
+    "performed_by": "likhi",
+    "details": "Administrator logged into Smart Civic Control Center",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:45:07.582168"
+  },
+  {
+    "id": "AUD-ac59d6",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:44:49.713012"
+  },
+  {
+    "id": "AUD-ef862b",
+    "action": "COMPLAINT_UPDATED",
+    "performed_by": "system",
+    "details": "Complaint #TC24087 set to In Progress",
+    "target_id": "TC24087",
+    "timestamp": "2026-11-21T22:44:48.055834"
+  },
+  {
+    "id": "AUD-c06f02",
+    "action": "COMPLAINT_UPDATED",
+    "performed_by": "system",
+    "details": "Complaint #TC24096 set to Resolved",
+    "target_id": "TC24096",
+    "timestamp": "2026-11-21T22:44:37.889975"
+  },
+  {
+    "id": "AUD-cbfe98",
+    "action": "ADMIN_LOGIN",
+    "performed_by": "likhi",
+    "details": "Administrator logged into Smart Civic Control Center",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:44:02.278004"
+  },
+  {
+    "id": "AUD-6f1f5f",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:43:16.058826"
+  },
+  {
+    "id": "AUD-6451f7",
+    "action": "STAFF_LOGIN",
+    "performed_by": "staff1",
+    "details": "Staff logged in (Road and Infrastructure Department)",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:41:49.363085"
+  },
+  {
+    "id": "AUD-1b4901",
+    "action": "COMPLAINT_CREATED",
+    "performed_by": "9845012345",
+    "details": "Complaint #TC24096 filed in Ward 11 - Jayanagar East",
+    "target_id": "TC24096",
+    "timestamp": "2026-11-21T22:41:32.850019"
+  },
+  {
+    "id": "AUD-3f0dc1",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T22:40:33.743023"
+  },
+  {
+    "id": "AUD-c6c169",
+    "action": "VILLAGE_APPROVED",
+    "performed_by": "admin",
+    "details": "Approved village Hosahalli Palya into master registry",
+    "target_id": "610056",
+    "timestamp": "2026-11-21T21:24:42.556977"
+  },
+  {
+    "id": "AUD-6c1b19",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T21:23:14.133503"
+  },
+  {
+    "id": "AUD-e15b3c",
+    "action": "ADMIN_LOGIN",
+    "performed_by": "likhi",
+    "details": "Administrator logged into Smart Civic Control Center",
+    "target_id": "",
+    "timestamp": "2026-11-21T21:21:51.616571"
+  },
+  {
+    "id": "AUD-7ba552",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T21:11:16.009590"
+  },
+  {
+    "id": "AUD-009d98",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "1234567891",
+    "details": "Citizen logged in: Yashwanth J",
+    "target_id": "",
+    "timestamp": "2026-11-21T21:04:25.181141"
+  },
+  {
+    "id": "AUD-06d1e5",
+    "action": "CITIZEN_REGISTER",
+    "performed_by": "1234567891",
+    "details": "Citizen registered: Yashwanth J (Ward 14 - Gandhinagar)",
+    "target_id": "CTZ-bfa8a8",
+    "timestamp": "2026-11-21T21:03:05.812028"
+  },
+  {
+    "id": "AUD-376319",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T21:01:34.810429"
+  },
+  {
+    "id": "AUD-0b0a08",
+    "action": "CITIZEN_PASSWORD_RECOVERY",
+    "performed_by": "9845999888",
+    "details": "Password successfully reset via verified recovery protocol",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:59:51.710503"
+  },
+  {
+    "id": "AUD-1eb97e",
+    "action": "CITIZEN_REGISTER",
+    "performed_by": "9845999888",
+    "details": "Citizen registered: Kiran Kumar (Ward 14 - Gandhinagar)",
+    "target_id": "CTZ-5b2942",
+    "timestamp": "2026-11-21T20:59:41.265308"
+  },
+  {
+    "id": "AUD-2b80e6",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9845012345",
+    "details": "Citizen logged in: Prajwal Gowda",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:59:32.094867"
+  },
+  {
+    "id": "AUD-711235",
+    "action": "ADMIN_LOGIN",
+    "performed_by": "likhi",
+    "details": "Administrator logged into Smart Civic Control Center",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:58:10.787972"
+  },
+  {
+    "id": "AUD-36cf4b",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9035920997",
+    "details": "Citizen logged in via secure mobile OTP",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:55:14.571585"
+  },
+  {
+    "id": "AUD-3b6ea4",
+    "action": "ADMIN_LOGIN",
+    "performed_by": "likhi",
+    "details": "Administrator logged into Smart Civic Control Center",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:54:48.884879"
+  },
+  {
+    "id": "AUD-82e2d4",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9035920997",
+    "details": "Citizen logged in via secure mobile OTP",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:52:34.525196"
+  },
+  {
+    "id": "AUD-fcded7",
+    "action": "ADMIN_LOGIN",
+    "performed_by": "likhi",
+    "details": "Administrator logged into Smart Civic Control Center",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:51:53.873760"
+  },
+  {
+    "id": "AUD-be5ca8",
+    "action": "COMPLAINT_CREATED",
+    "performed_by": "9845112233",
+    "details": "Complaint #TC24095 filed in Ward 14 - Gandhinagar",
+    "target_id": "TC24095",
+    "timestamp": "2026-11-21T20:51:34.099189"
+  },
+  {
+    "id": "AUD-31ec9f",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9035920997",
+    "details": "Citizen logged in via secure mobile OTP",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:51:02.111911"
+  },
+  {
+    "id": "AUD-e61f8f",
+    "action": "CITIZEN_LOGIN",
+    "performed_by": "9035920997",
+    "details": "Citizen logged in via secure mobile OTP",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:50:53.375694"
+  },
+  {
+    "id": "AUD-96fb3b",
+    "action": "OTP_SENT",
+    "performed_by": "9035920997",
+    "details": "Citizen verification OTP generated",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:50:36.817963"
+  },
+  {
+    "id": "AUD-378436",
+    "action": "STAFF_LOGIN",
+    "performed_by": "staff1",
+    "details": "Staff logged in (Road and Infrastructure Department)",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:49:43.106099"
+  },
+  {
+    "id": "AUD-df1cb2",
+    "action": "OTP_SENT",
+    "performed_by": "9035920097",
+    "details": "Citizen verification OTP generated",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:45:26.749457"
+  },
+  {
+    "id": "AUD-6c49bf",
+    "action": "ADMIN_LOGIN",
+    "performed_by": "likhi",
+    "details": "Administrator logged into Smart Civic Control Center",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:44:58.657077"
+  },
+  {
+    "id": "AUD-8d8e0d",
+    "action": "STAFF_LOGIN",
+    "performed_by": "staff1",
+    "details": "Staff logged in (Road and Infrastructure Department)",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:44:08.589341"
+  },
+  {
+    "id": "AUD-b73d24",
+    "action": "ADMIN_LOGIN",
+    "performed_by": "likhi",
+    "details": "Administrator logged into Smart Civic Control Center",
+    "target_id": "",
+    "timestamp": "2026-11-21T20:42:46.514704"
+  }
+]

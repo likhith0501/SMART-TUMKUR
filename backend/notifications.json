@@ -1,0 +1,50 @@
+[
+  {
+    "id": "NOT-5e079e",
+    "title": "Complaint #TC24097 Resolved",
+    "message": "Status update: Status transitioned to Resolved",
+    "role_target": "citizen",
+    "read": false,
+    "created_at": "2026-11-21T23:05:06.742282"
+  },
+  {
+    "id": "NOT-2d699a",
+    "title": "New Complaint #TC24097",
+    "message": "Public Infrastructure reported at Kyathsandra Village (Kyathsandra Rural) by Likhi (Administrator)",
+    "role_target": "admin",
+    "read": false,
+    "created_at": "2026-11-21T23:04:12.249789"
+  },
+  {
+    "id": "NOT-82cb2b",
+    "title": "Complaint #TC24087 In Progress",
+    "message": "Status update: Dispatched team",
+    "role_target": "citizen",
+    "read": true,
+    "created_at": "2026-11-21T22:44:48.052712"
+  },
+  {
+    "id": "NOT-4e282c",
+    "title": "Complaint #TC24096 Resolved",
+    "message": "Status update: Status transitioned to Resolved",
+    "role_target": "citizen",
+    "read": true,
+    "created_at": "2026-11-21T22:44:37.888044"
+  },
+  {
+    "id": "NOT-b5dacb",
+    "title": "New Complaint #TC24096",
+    "message": "Public Infrastructure reported at Ward 11 - Jayanagar East by Prajwal Gowda",
+    "role_target": "admin",
+    "read": true,
+    "created_at": "2026-11-21T22:41:32.848441"
+  },
+  {
+    "id": "NOT-b34143",
+    "title": "New Complaint #TC24095",
+    "message": "Public Infrastructure reported at Ward 14 - Gandhinagar by Prajwal Gowda",
+    "role_target": "admin",
+    "read": true,
+    "created_at": "2026-11-21T20:51:34.097079"
+  }
+]

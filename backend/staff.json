@@ -1,0 +1,44 @@
+[
+  {
+    "id": "STF-01",
+    "username": "staff1",
+    "password_hash": "$2b$12$6D9o91jViqxpvITWGc6uUOK/pZT/SGcSyxnGBaYVvlHkzRgzlASkK",
+    "full_name": "Inspector Venkatesh M.",
+    "phone": "9845198765",
+    "department": "Road and Infrastructure Department",
+    "assigned_ward": "Ward 14 - Gandhinagar",
+    "role": "staff",
+    "active": true,
+    "created_at": "2026-11-21T20:42:28.714343",
+    "tasks_completed": 47,
+    "tasks_assigned": 4
+  },
+  {
+    "id": "STF-02",
+    "username": "staff2",
+    "password_hash": "$2b$12$gQ0Ywk4Kw/PM1zHBIbVhNO8z6Wwd/vmF260oFnNnLPdqY8T3PbfDe",
+    "full_name": "Supervisor Manjunath K.",
+    "phone": "9900223344",
+    "department": "Sanitation Department",
+    "assigned_ward": "Ward 22 - Ashok Nagar",
+    "role": "staff",
+    "active": true,
+    "created_at": "2026-11-21T20:42:29.046817",
+    "tasks_completed": 62,
+    "tasks_assigned": 3
+  },
+  {
+    "id": "STF-03",
+    "username": "staff3",
+    "password_hash": "$2b$12$3xDZtDO4LoMFuaUyVoJNrOjSGjYMadrNdJPMsaOyhyWXw/Jg/PK46",
+    "full_name": "Er. Girish Kumar",
+    "phone": "9741005544",
+    "department": "Drainage Department",
+    "assigned_ward": "Ward 03 - Mandipet",
+    "role": "staff",
+    "active": true,
+    "created_at": "2026-11-21T20:42:29.364180",
+    "tasks_completed": 38,
+    "tasks_assigned": 2
+  }
+]

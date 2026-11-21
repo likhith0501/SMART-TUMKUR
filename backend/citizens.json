@@ -1,0 +1,50 @@
+[
+  {
+    "id": "CTZ-6414a5",
+    "phone": "9845012345",
+    "password_hash": "$2b$12$M0/apayaak22/lNSREE7h.8POw1pbZKPjKxnMmjpJm7LE1HbAqYc6",
+    "full_name": "Prajwal Gowda",
+    "email": "prajwal@gmail.com",
+    "ward": "Ward 14 - Gandhinagar",
+    "ward_no": 14,
+    "locality": "KSRTC Terminal Area",
+    "address": "Opposite Town Hall, BH Road, Tumakuru",
+    "created_at": "2026-11-21T20:59:17.157148"
+  },
+  {
+    "id": "CTZ-273f5e",
+    "phone": "9845123456",
+    "password_hash": "$2b$12$i1dY5xP2vLgUeBNaVI2bkuCKl5f9ZqFlWYm8RYqz.L1xxIBjNQhH6",
+    "full_name": "Ramesh Gowda",
+    "email": "ramesh.g@yahoo.com",
+    "ward": "Ward 14 - Gandhinagar",
+    "ward_no": 14,
+    "locality": "Near Bus Stand",
+    "address": "Gandhinagar 2nd Cross, Tumakuru",
+    "created_at": "2026-11-21T20:59:17.555786"
+  },
+  {
+    "id": "CTZ-5b2942",
+    "phone": "9845999888",
+    "password_hash": "$2b$12$CPPx2k3KUVMXUcPczO.3rei5IqXzzrMcv4FcL82OGqI83Uwa0VS0.",
+    "full_name": "Kiran Kumar",
+    "email": "kiran@tumakuru.in",
+    "ward": "Ward 14 - Gandhinagar",
+    "ward_no": 14,
+    "locality": "Town Hall",
+    "address": "12 Main St",
+    "created_at": "2026-11-21T20:59:41.245964"
+  },
+  {
+    "id": "CTZ-bfa8a8",
+    "phone": "1234567891",
+    "password_hash": "$2b$12$4Tx2cJ2Zb7FMfADAAxFoDOPFruZ2AMX0Psybm3tPUGekzzifJziZG",
+    "full_name": "Yashwanth J",
+    "email": "likhi@gmail.com",
+    "ward": "Ward 14 - Gandhinagar",
+    "ward_no": 14,
+    "locality": "yes",
+    "address": "Kasaba Hobali Sira Taluku, Tumkur Karnataka India572137",
+    "created_at": "2026-11-21T21:03:05.812028"
+  }
+]

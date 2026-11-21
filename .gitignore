@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+dist/
+.env.local
+.env.*.local
+*.log
+
+# Python / Virtualenv
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+dist-check.js

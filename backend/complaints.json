@@ -1,0 +1,410 @@
+[
+  {
+    "title": "ffffffffffff",
+    "description": "fffffffffffffffffffffffffff",
+    "category": "Public Infrastructure",
+    "department": "Road and Infrastructure Department",
+    "district": "Tumakuru",
+    "taluk": "Tumakuru Taluk",
+    "hobli": "Kasaba Hobli",
+    "area_type": "rural",
+    "ward": "Ward 14 - Gandhinagar",
+    "ward_no": 14,
+    "gp_name": "Kyathsandra Rural",
+    "village_name": "Kyathsandra Village",
+    "locality": "",
+    "landmark": "yyyyyyyyyyyyyyyyyyyyy",
+    "latitude": 13.3409,
+    "longitude": 77.101,
+    "citizen_name": "Likhi (Administrator)",
+    "citizen_phone": "9845012345",
+    "priority": "Medium",
+    "severity": "Medium",
+    "confidence": 0.9,
+    "image_url": "blob:http://localhost:5173/4236a798-fe77-49fd-8fe0-e71ad28b6ede",
+    "video_url": null,
+    "id": "TC24097",
+    "status": "Resolved",
+    "assigned_staff": "iiiiiiiiiiiiiiii",
+    "staff_notes": "GGGGGGGGGGGGGGGGGGGGGG",
+    "resolved_image_url": "data:image/jpeg;base64,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",
+    "created_at": "2026-11-21T23:04:12.242696",
+    "updated_at": "2026-11-21T23:05:06.729243",
+    "timeline": [
+      {
+        "status": "Submitted",
+        "timestamp": "2026-11-21T23:04:12.242696",
+        "description": "Civic report registered for Kyathsandra Village (Kyathsandra Rural). Ticket #TC24097 generated."
+      },
+      {
+        "status": "Resolved",
+        "timestamp": "2026-11-21T23:05:06.729243",
+        "description": "Status transitioned to Resolved"
+      }
+    ]
+  },
+  {
+    "title": "tumkur",
+    "description": "not secure",
+    "category": "Public Infrastructure",
+    "department": "Road and Infrastructure Department",
+    "district": "Tumakuru",
+    "taluk": "Tumakuru Taluk",
+    "hobli": "Kasaba Hobli",
+    "area_type": "urban",
+    "ward": "Ward 11 - Jayanagar East",
+    "ward_no": 14,
+    "gp_name": "",
+    "village_name": "",
+    "locality": "KSRTC Terminal Area",
+    "landmark": "Near Main Center",
+    "latitude": 13.3409,
+    "longitude": 77.101,
+    "citizen_name": "Prajwal Gowda",
+    "citizen_phone": "9845012345",
+    "priority": "Medium",
+    "severity": "Medium",
+    "confidence": 0.9,
+    "image_url": "blob:http://localhost:5173/cf700b9e-3abe-47f2-9392-44c863aad65f",
+    "video_url": null,
+    "id": "TC24096",
+    "status": "Resolved",
+    "assigned_staff": "likhi",
+    "staff_notes": "fffffffffff",
+    "resolved_image_url": "data:image/jpeg;base64,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",
+    "created_at": "2026-11-21T22:41:32.839508",
+    "updated_at": "2026-11-21T22:44:37.882832",
+    "timeline": [
+      {
+        "status": "Submitted",
+        "timestamp": "2026-11-21T22:41:32.839508",
+        "description": "Civic report registered for Ward 11 - Jayanagar East. Ticket #TC24096 generated."
+      },
+      {
+        "status": "Resolved",
+        "timestamp": "2026-11-21T22:44:37.882832",
+        "description": "Status transitioned to Resolved"
+      }
+    ]
+  },
+  {
+    "title": "hiiii",
+    "description": "rrrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "category": "Public Infrastructure",
+    "department": "Road and Infrastructure Department",
+    "ward": "Ward 14 - Gandhinagar",
+    "ward_no": 14,
+    "landmark": "Near City Circle",
+    "latitude": 13.3409,
+    "longitude": 77.101,
+    "citizen_name": "Prajwal Gowda",
+    "citizen_phone": "9845112233",
+    "priority": "Medium",
+    "severity": "Medium",
+    "confidence": 0.9,
+    "image_url": "blob:http://localhost:5173/610c6224-50cd-4fcf-9471-4de8bc40778f",
+    "video_url": null,
+    "id": "TC24095",
+    "status": "Submitted",
+    "assigned_staff": null,
+    "staff_notes": null,
+    "resolved_image_url": null,
+    "created_at": "2026-11-21T20:51:34.094924",
+    "updated_at": "2026-11-21T20:51:34.094924",
+    "timeline": [
+      {
+        "status": "Submitted",
+        "timestamp": "2026-11-21T20:51:34.094924",
+        "description": "Civic report registered for Ward 14 - Gandhinagar. Ticket #TC24095 generated."
+      }
+    ]
+  },
+  {
+    "title": "hhhhhhhhhhhhhhhhhhh",
+    "description": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
+    "category": "Road Damage / Potholes",
+    "department": "Road and Infrastructure Department",
+    "ward": "Ward 09 - Melekote",
+    "landmark": "rrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "latitude": 12.9786,
+    "longitude": 77.364,
+    "citizen_name": "Prajwal Gowda",
+    "citizen_phone": "9845112233",
+    "status": "Submitted",
+    "severity": "Medium",
+    "confidence": 0.88,
+    "image_url": "blob:http://localhost:5173/0461065e-cd11-4f43-a82b-e951e1fe1852",
+    "resolved_image_url": null,
+    "staff_notes": "ffffffffffffffff",
+    "assigned_staff": "fffffffffffffffffffffffff",
+    "id": "TC24094",
+    "created_at": "2026-11-21T20:26:57.388981",
+    "updated_at": "2026-11-21T20:27:22.130865",
+    "timeline": [
+      {
+        "status": "Submitted",
+        "timestamp": "2026-11-21T20:26:57.388981",
+        "description": "Civic report registered for Ward 09 - Melekote."
+      },
+      {
+        "status": "Resolved",
+        "timestamp": "2026-11-21T20:27:12.352135",
+        "description": "Status changed to Resolved"
+      },
+      {
+        "status": "Submitted",
+        "timestamp": "2026-11-21T20:27:22.130865",
+        "description": "Status changed to Submitted"
+      }
+    ]
+  },
+  {
+    "title": "hhhhhhhhhhhhhhhhhhh",
+    "description": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
+    "category": "Road Damage / Potholes",
+    "department": "Road and Infrastructure Department",
+    "ward": "Ward 09 - Melekote",
+    "landmark": "rrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "latitude": 12.9786,
+    "longitude": 77.364,
+    "citizen_name": "Prajwal Gowda",
+    "citizen_phone": "9845112233",
+    "status": "Submitted",
+    "severity": "Medium",
+    "confidence": 0.88,
+    "image_url": "blob:http://localhost:5173/0461065e-cd11-4f43-a82b-e951e1fe1852",
+    "resolved_image_url": null,
+    "staff_notes": "ffffffffffffffff",
+    "assigned_staff": "fffffffffffffffffffffffff",
+    "id": "TC24093",
+    "created_at": "2026-11-21T20:23:55.619873",
+    "updated_at": "2026-11-21T20:24:38.112039",
+    "timeline": [
+      {
+        "status": "Submitted",
+        "timestamp": "2026-11-21T20:23:55.619873",
+        "description": "Civic report registered for Ward 09 - Melekote."
+      },
+      {
+        "status": "Submitted",
+        "timestamp": "2026-11-21T20:24:08.351194",
+        "description": "Status changed to Submitted"
+      },
+      {
+        "status": "Submitted",
+        "timestamp": "2026-11-21T20:24:38.112039",
+        "description": "Status changed to Submitted"
+      }
+    ]
+  },
+  {
+    "id": "TC24087",
+    "title": "Severe Pothole on BH Road Near Bus Stand",
+    "description": "Deep dangerous pothole near KSRTC Tumakuru bus stand causing traffic jams and bike skidding hazards.",
+    "category": "Road Damage / Potholes",
+    "department": "Road and Infrastructure Department",
+    "ward": "Ward 14 - Gandhinagar",
+    "landmark": "Near KSRTC Main Terminal",
+    "latitude": 13.3409,
+    "longitude": 77.101,
+    "citizen_name": "Ramesh Gowda",
+    "citizen_phone": "9845123456",
+    "status": "In Progress",
+    "severity": "High",
+    "confidence": 0.96,
+    "image_url": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=600",
+    "resolved_image_url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?w=600",
+    "assigned_staff": "Inspector Venkatesh M.",
+    "staff_notes": "Tar resurfacing and compaction completed cleanly.",
+    "created_at": "2026-11-17T10:15:00",
+    "updated_at": "2026-11-21T22:44:48.049299",
+    "timeline": [
+      {
+        "status": "Submitted",
+        "timestamp": "2026-11-17T10:15:00",
+        "description": "Complaint filed with geo-tagged image."
+      },
+      {
+        "status": "Verified",
+        "timestamp": "2026-11-17T11:00:00",
+        "description": "AI and Ward Officer verified severity."
+      },
+      {
+        "status": "Assigned",
+        "timestamp": "2026-11-17T12:30:00",
+        "description": "Assigned to Road Maintenance Squad 2."
+      },
+      {
+        "status": "In Progress",
+        "timestamp": "2026-11-17T14:45:00",
+        "description": "Repair crew mobilized with asphalt paver."
+      },
+      {
+        "status": "Resolved",
+        "timestamp": "2026-11-17T18:40:00",
+        "description": "Resurfacing finished and tested."
+      },
+      {
+        "status": "In Progress",
+        "timestamp": "2026-11-21T22:44:48.049299",
+        "description": "Dispatched team"
+      }
+    ]
+  },
+  {
+    "id": "TC24086",
+    "title": "Overflowing Garbage Dumpster at Ashok Nagar",
+    "description": "Solid waste overflowing on pedestrian pavement near Ashok Nagar community park.",
+    "category": "Garbage Collection",
+    "department": "Sanitation Department",
+    "ward": "Ward 22 - Ashok Nagar",
+    "landmark": "Opposite Shanti Park Gate 2",
+    "latitude": 13.334,
+    "longitude": 77.1085,
+    "citizen_name": "Priya Sharma",
+    "citizen_phone": "9900223344",
+    "status": "In Progress",
+    "severity": "Medium",
+    "confidence": 0.92,
+    "image_url": "https://images.unsplash.com/photo-1605600659873-d808a13e4d2a?w=600",
+    "resolved_image_url": null,
+    "assigned_staff": "Supervisor Manjunath",
+    "staff_notes": "Garbage compactor vehicle dispatched to site.",
+    "created_at": "2026-11-17T12:00:00",
+    "updated_at": "2026-11-17T15:20:00",
+    "timeline": [
+      {
+        "status": "Submitted",
+        "timestamp": "2026-11-17T12:00:00",
+        "description": "Filed by resident."
+      },
+      {
+        "status": "Verified",
+        "timestamp": "2026-11-17T13:10:00",
+        "description": "Confirmed by Ward Health Inspector."
+      },
+      {
+        "status": "Assigned",
+        "timestamp": "2026-11-17T14:00:00",
+        "description": "Assigned to Ward 22 Sanitation Team."
+      },
+      {
+        "status": "In Progress",
+        "timestamp": "2026-11-17T15:20:00",
+        "description": "Compactor truck en route."
+      }
+    ]
+  },
+  {
+    "id": "TC24085",
+    "title": "Main Pipeline Leakage Spilling on SS Puram Main Road",
+    "description": "Continuous freshwater pipe break flooding street and causing water shortage.",
+    "category": "Water Leakage",
+    "department": "Water Supply Department",
+    "ward": "Ward 07 - SS Puram",
+    "landmark": "Near Junior College Junction",
+    "latitude": 13.3482,
+    "longitude": 77.098,
+    "citizen_name": "Anil Kumar S",
+    "citizen_phone": "9448123987",
+    "status": "Submitted",
+    "severity": "High",
+    "confidence": 0.98,
+    "image_url": "https://images.unsplash.com/photo-1584467541268-b040f83be3fd?w=600",
+    "resolved_image_url": null,
+    "assigned_staff": null,
+    "staff_notes": null,
+    "created_at": "2026-11-17T17:45:00",
+    "updated_at": "2026-11-17T17:45:00",
+    "timeline": [
+      {
+        "status": "Submitted",
+        "timestamp": "2026-11-17T17:45:00",
+        "description": "Logged via Smart Citizen Portal."
+      }
+    ]
+  },
+  {
+    "id": "TC24084",
+    "title": "Row of 5 Streetlights Non-functional on Ring Road",
+    "description": "Entire stretch dark between Kyathsandra Toll and Siddaganga Institute gate.",
+    "category": "Streetlight Problems",
+    "department": "Electricity and Streetlight Department",
+    "ward": "Ward 31 - Kyathsandra",
+    "landmark": "Siddaganga Institute Flyover Link",
+    "latitude": 13.321,
+    "longitude": 77.135,
+    "citizen_name": "Kavitha R",
+    "citizen_phone": "9880112233",
+    "status": "Assigned",
+    "severity": "Medium",
+    "confidence": 0.91,
+    "image_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600",
+    "resolved_image_url": null,
+    "assigned_staff": "Electrician Suresh Babu",
+    "staff_notes": "Line transformer breaker trippped, replacing fuse kit.",
+    "created_at": "2026-11-17T14:30:00",
+    "updated_at": "2026-11-17T16:15:00",
+    "timeline": [
+      {
+        "status": "Submitted",
+        "timestamp": "2026-11-17T14:30:00",
+        "description": "Complaint submitted."
+      },
+      {
+        "status": "Verified",
+        "timestamp": "2026-11-17T15:00:00",
+        "description": "Auto-routed to Electrical department."
+      },
+      {
+        "status": "Assigned",
+        "timestamp": "2026-11-17T16:15:00",
+        "description": "Assigned to Lineman team."
+      }
+    ]
+  },
+  {
+    "id": "TC24083",
+    "title": "Choked Stormwater Drain Overflowing into Mandipet",
+    "description": "Plastic blockage causing black sewage water overflow during rain.",
+    "category": "Drainage Problems",
+    "department": "Drainage Department",
+    "ward": "Ward 03 - Mandipet Market",
+    "landmark": "Behind Vegetable Wholesale Market",
+    "latitude": 13.3425,
+    "longitude": 77.1042,
+    "citizen_name": "Basavaraju",
+    "citizen_phone": "9741005544",
+    "status": "In Progress",
+    "severity": "High",
+    "confidence": 0.95,
+    "image_url": "https://images.unsplash.com/photo-1621451537084-482c73073a0f?w=600",
+    "resolved_image_url": null,
+    "assigned_staff": "Junior Eng. Girish",
+    "staff_notes": "Suction jetting machine engaged at location.",
+    "created_at": "2026-11-16T09:00:00",
+    "updated_at": "2026-11-17T11:30:00",
+    "timeline": [
+      {
+        "status": "Submitted",
+        "timestamp": "2026-11-16T09:00:00",
+        "description": "Received."
+      },
+      {
+        "status": "Verified",
+        "timestamp": "2026-11-16T11:00:00",
+        "description": "Inspected on-site."
+      },
+      {
+        "status": "Assigned",
+        "timestamp": "2026-11-16T14:00:00",
+        "description": "Jetting team allocated."
+      },
+      {
+        "status": "In Progress",
+        "timestamp": "2026-11-17T11:30:00",
+        "description": "Clearing underground silt."
+      }
+    ]
+  }
+]
