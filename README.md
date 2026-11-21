@@ -78,6 +78,5 @@ Frontend runs at `http://localhost:5173`.
 
 ---
 
-## 🔐 Default Administrative Credentials (Development)
-- **Admin**: `likhi` / `likhi@2005`
-- **Staff**: `staff1` / `staff1@123`
+
+
