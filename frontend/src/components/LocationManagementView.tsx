@@ -53,7 +53,7 @@ export const LocationManagementView: React.FC<LocationManagementViewProps> = ({
 
   const handleApproveRequest = async (requestId: string) => {
     try {
-      const res = await axios.patch(`http://localhost:8000/api/admin/geo/village-requests/${requestId}/approve`);
+      const res = await axios.patch(`/api/admin/geo/village-requests/${requestId}/approve`);
       setActionFeedback(res.data.message);
       onRefreshData();
       setTimeout(() => setActionFeedback(null), 3000);
@@ -66,7 +66,7 @@ export const LocationManagementView: React.FC<LocationManagementViewProps> = ({
     const reason = prompt('Enter rejection reason (e.g. duplicate or out of taluk):', 'Duplicate entry');
     if (!reason) return;
     try {
-      await axios.patch(`http://localhost:8000/api/admin/geo/village-requests/${requestId}/reject`, { reason });
+      await axios.patch(`/api/admin/geo/village-requests/${requestId}/reject`, { reason });
       setActionFeedback('Village request marked as rejected.');
       onRefreshData();
       setTimeout(() => setActionFeedback(null), 3000);
@@ -79,7 +79,7 @@ export const LocationManagementView: React.FC<LocationManagementViewProps> = ({
     e.preventDefault();
     if (!newVillageName) return;
     try {
-      await axios.post('http://localhost:8000/api/admin/geo/villages', {
+      await axios.post('/api/admin/geo/villages', {
         village_name: newVillageName,
         kannada_name: newKannadaName || newVillageName,
         gp_name: newGP || filteredGPsForModal[0]?.gp_name || 'Kyathsandra Rural',
@@ -100,7 +100,7 @@ export const LocationManagementView: React.FC<LocationManagementViewProps> = ({
   const handleDeleteVillage = async (lgdCode: string, name: string) => {
     if (!confirm(`Are you sure you want to delete village '${name}' (${lgdCode})?`)) return;
     try {
-      await axios.delete(`http://localhost:8000/api/admin/geo/villages/${lgdCode}`);
+      await axios.delete(`/api/admin/geo/villages/${lgdCode}`);
       onRefreshData();
     } catch (err) {
       alert('Error removing village');

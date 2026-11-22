@@ -70,7 +70,7 @@ export const AddMissingVillageModal: React.FC<AddMissingVillageModalProps> = ({
     setErrorMsg('');
     setSuccessMsg('');
     try {
-      const res = await axios.post('http://localhost:8000/api/geo/villages/request-new', {
+      const res = await axios.post('/api/geo/villages/request-new', {
         village_name: villageName.trim(),
         hobli,
         gp_name: gpName || filteredGPs[0]?.gp_name || 'Kyathsandra Rural',

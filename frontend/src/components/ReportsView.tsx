@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Complaint, Department, Ward } from '../types';
+import { API_BASE } from '../api';
 import {
   BarChart3,
   Download,
@@ -27,7 +28,7 @@ export const ReportsView: React.FC<ReportsViewProps> = ({
   const [downloading, setDownloading] = useState(false);
 
   const handleExportCSV = () => {
-    window.open('http://localhost:8000/api/reports/export/csv', '_blank');
+    window.open(`${API_BASE}/api/reports/export/csv`, '_blank');
   };
 
   const handlePrintPDF = () => {

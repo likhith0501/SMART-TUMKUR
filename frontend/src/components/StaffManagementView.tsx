@@ -42,7 +42,7 @@ export const StaffManagementView: React.FC<StaffManagementViewProps> = ({
     setLoading(true);
     setFeedback(null);
     try {
-      await axios.post('http://localhost:8000/api/admin/staff', {
+      await axios.post('/api/admin/staff', {
         username,
         full_name: fullName,
         phone,
@@ -65,7 +65,7 @@ export const StaffManagementView: React.FC<StaffManagementViewProps> = ({
 
   const handleToggleStatus = async (staffId: string) => {
     try {
-      await axios.patch(`http://localhost:8000/api/admin/staff/${staffId}/toggle-status`);
+      await axios.patch(`/api/admin/staff/${staffId}/toggle-status`);
       onStaffRefresh();
     } catch (err) {
       alert('Error updating staff status');
@@ -76,7 +76,7 @@ export const StaffManagementView: React.FC<StaffManagementViewProps> = ({
     const newPass = prompt(`Enter new password for ${uname}:`, 'staff@2026');
     if (!newPass) return;
     try {
-      await axios.post(`http://localhost:8000/api/admin/staff/${staffId}/reset-password`, {
+      await axios.post(`/api/admin/staff/${staffId}/reset-password`, {
         new_password: newPass
       });
       alert(`Password updated for ${uname}`);

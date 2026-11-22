@@ -34,7 +34,7 @@ export const ComplaintDetailModal: React.FC<ComplaintDetailModalProps> = ({
       if (resolvedImage) payload.resolved_image_url = resolvedImage;
 
       const res = await axios.patch(
-        `http://localhost:8000/api/complaints/${complaint.id}/status`,
+        `/api/complaints/${complaint.id}/status`,
         payload
       );
       onUpdated(res.data);

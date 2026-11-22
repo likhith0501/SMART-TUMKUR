@@ -108,16 +108,16 @@ export function App() {
   const fetchAllData = async () => {
     try {
       const [compRes, wardsRes, infraRes, deptRes, staffRes, notifRes, hobliRes, gpRes, vilRes, reqRes] = await Promise.all([
-        axios.get('http://localhost:8000/api/complaints'),
-        axios.get('http://localhost:8000/api/city/wards'),
-        axios.get('http://localhost:8000/api/city/infrastructure'),
-        axios.get('http://localhost:8000/api/city/departments'),
-        axios.get('http://localhost:8000/api/admin/staff'),
-        axios.get('http://localhost:8000/api/notifications'),
-        axios.get('http://localhost:8000/api/geo/hoblis'),
-        axios.get('http://localhost:8000/api/geo/gram-panchayats'),
-        axios.get('http://localhost:8000/api/geo/villages'),
-        axios.get('http://localhost:8000/api/admin/geo/village-requests')
+        axios.get('/api/complaints'),
+        axios.get('/api/city/wards'),
+        axios.get('/api/city/infrastructure'),
+        axios.get('/api/city/departments'),
+        axios.get('/api/admin/staff'),
+        axios.get('/api/notifications'),
+        axios.get('/api/geo/hoblis'),
+        axios.get('/api/geo/gram-panchayats'),
+        axios.get('/api/geo/villages'),
+        axios.get('/api/admin/geo/village-requests')
       ]);
 
       setComplaints(compRes.data);
@@ -282,7 +282,7 @@ export function App() {
                     <button
                       onClick={async () => {
                         try {
-                          await axios.delete('http://localhost:8000/api/notifications/clear');
+                          await axios.delete('/api/notifications/clear');
                           setNotifications([]);
                         } catch (err) {
                           console.error('Failed to clear alerts', err);

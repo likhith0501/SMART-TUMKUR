@@ -4,13 +4,15 @@ import uuid
 import io
 from datetime import datetime, timedelta
 from typing import List, Optional
-from fastapi import FastAPI, HTTPException, UploadFile, File, Form, Depends, status, Response
+from fastapi import FastAPI, HTTPException, UploadFile, File, Form, Depends, status, Response, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 import jwt
 from passlib.context import CryptContext
+
+import db
 
 from tumakuru_city_data import TUMAKURU_CITY_INFO, TUMAKURU_WARDS, TUMAKURU_INFRASTRUCTURE, MUNICIPAL_DEPARTMENTS
 from tumakuru_taluk_data import TUMAKURU_DISTRICT, TUMAKURU_TALUK, TUMAKURU_HOBLIS, TUMAKURU_GRAM_PANCHAYATS, TUMAKURU_TALUK_VILLAGES
@@ -22,9 +24,14 @@ ALGORITHM = "HS256"
 
 app = FastAPI(title="Smart Civic Tumakuru Enterprise API", version="2.2.0")
 
+# CORS: allow the deployed frontend (Vercel) plus any configured extra origins.
+# Set CORS_ORIGINS (comma-separated) on Render; "*" keeps local/dev permissive.
+_cors_env = os.environ.get("CORS_ORIGINS", "*").strip()
+allow_origins = ["*"] if _cors_env == "*" else [o.strip() for o in _cors_env.split(",") if o.strip()]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=allow_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -47,13 +54,7 @@ app.mount("/uploads", StaticFiles(directory=UPLOADS_DIR), name="uploads")
 # ----------------- DB SEEDING AND PERSISTENCE -----------------
 
 def log_audit(action: str, performed_by: str, details: str, target_id: str = ""):
-    logs = []
-    if os.path.exists(AUDIT_FILE):
-        try:
-            with open(AUDIT_FILE, "r", encoding="utf-8") as f:
-                logs = json.load(f)
-        except Exception:
-            logs = []
+    logs = load_data(AUDIT_FILE, [])
     logs.insert(0, {
         "id": f"AUD-{uuid.uuid4().hex[:6]}",
         "action": action,
@@ -62,27 +63,22 @@ def log_audit(action: str, performed_by: str, details: str, target_id: str = "")
         "target_id": target_id,
         "timestamp": datetime.now().isoformat()
     })
-    with open(AUDIT_FILE, "w", encoding="utf-8") as f:
-        json.dump(logs[:500], f, indent=2)
+    save_data(AUDIT_FILE, logs[:500])
 
 def load_data(filepath, default=[]):
-    if not os.path.exists(filepath):
-        with open(filepath, "w", encoding="utf-8") as f:
-            json.dump(default, f, indent=2)
-        return default
-    try:
-        with open(filepath, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return default
+    # Delegates to the Supabase-backed store with a local JSON fallback.
+    return db.load_data(filepath, default)
 
 def save_data(filepath, data):
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
+    db.save_data(filepath, data)
 
 def seed_users_and_staff():
+    # Seeding is based on collection emptiness (works for Supabase and local JSON),
+    # not on file existence, so a fresh cloud DB gets seeded on first startup.
+
     # Admin seed: username "likhi", password "likhi@2005"
-    if not os.path.exists(USERS_FILE):
+    users = load_data(USERS_FILE, [])
+    if not users:
         admin_entry = {
             "username": "likhi",
             "password_hash": pwd_context.hash("likhi@2005"),
@@ -93,11 +89,11 @@ def seed_users_and_staff():
             "created_at": datetime.now().isoformat(),
             "first_login": False
         }
-        with open(USERS_FILE, "w", encoding="utf-8") as f:
-            json.dump([admin_entry], f, indent=2)
+        save_data(USERS_FILE, [admin_entry])
 
     # Initial Citizens Seed (Password: citizen@123)
-    if not os.path.exists(CITIZENS_FILE):
+    citizens = load_data(CITIZENS_FILE, [])
+    if not citizens:
         citizen_sample = [
             {
                 "id": f"CTZ-{uuid.uuid4().hex[:6]}",
@@ -124,11 +120,11 @@ def seed_users_and_staff():
                 "created_at": datetime.now().isoformat()
             }
         ]
-        with open(CITIZENS_FILE, "w", encoding="utf-8") as f:
-            json.dump(citizen_sample, f, indent=2)
+        save_data(CITIZENS_FILE, citizen_sample)
 
     # Initial Staff Seed (Username: staff1, Password: staff1@123)
-    if not os.path.exists(STAFF_FILE):
+    staff_list = load_data(STAFF_FILE, [])
+    if not staff_list:
         staff1_entry = {
             "id": "STF-01",
             "username": "staff1",
@@ -159,15 +155,14 @@ def seed_users_and_staff():
             "tasks_completed": 62,
             "tasks_assigned": 3
         }
-        with open(STAFF_FILE, "w", encoding="utf-8") as f:
-            json.dump([staff1_entry, staff2_entry], f, indent=2)
+        save_data(STAFF_FILE, [staff1_entry, staff2_entry])
 
-    # Seed Master Villages if not exists
-    if not os.path.exists(VILLAGES_FILE):
+    # Seed Master Villages if empty
+    if not load_data(VILLAGES_FILE, []):
         save_data(VILLAGES_FILE, TUMAKURU_TALUK_VILLAGES)
 
     # Seed Sample Missing Village Request
-    if not os.path.exists(VILLAGE_REQUESTS_FILE):
+    if not load_data(VILLAGE_REQUESTS_FILE, []):
         sample_request = [
             {
                 "id": "VR-001",
@@ -819,15 +814,12 @@ def export_complaints_csv():
 # ----------------- AI VISION & NLP ANALYSIS -----------------
 
 @app.post("/api/ai/analyze-image")
-async def analyze_image(file: UploadFile = File(None), description: str = Form("")):
-    filename = ""
+async def analyze_image(request: Request, file: UploadFile = File(None), description: str = Form("")):
     saved_url = ""
     if file:
-        filename = f"{uuid.uuid4().hex[:8]}_{file.filename}"
-        filepath = os.path.join(UPLOADS_DIR, filename)
-        with open(filepath, "wb") as f:
-            f.write(await file.read())
-        saved_url = f"http://localhost:8000/uploads/{filename}"
+        content = await file.read()
+        # Persist to Supabase Storage when configured, otherwise local uploads/.
+        saved_url = db.save_upload(content, file.filename or "upload.jpg")
 
     desc_lower = description.lower()
     if any(k in desc_lower for k in ["pothole", "road", "tar", "asphalt", "crater", "speed breaker"]):
@@ -887,5 +879,6 @@ def health_check():
         "jurisdiction": "Tumakuru Taluk (35 Wards + 38 Gram Panchayats)",
         "taluk_villages": len(villages),
         "auth_model": "Role-based (Citizen Mobile+Password, Admin, Staff)",
+        "storage": "supabase" if db.is_remote() else "local-json",
         "timestamp": datetime.now().isoformat()
     }

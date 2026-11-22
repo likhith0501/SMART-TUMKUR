@@ -119,3 +119,30 @@ CREATE TABLE IF NOT EXISTS audit_logs (
 CREATE INDEX IF NOT EXISTS idx_complaints_status ON complaints(status);
 CREATE INDEX IF NOT EXISTS idx_complaints_ward ON complaints(ward_no);
 CREATE INDEX IF NOT EXISTS idx_complaints_created_at ON complaints(created_at DESC);
+
+-- ============================================================
+-- APPLICATION PERSISTENCE (used by db.py)
+-- ============================================================
+-- The API persists each JSON collection as one row keyed by the
+-- collection name. This gives the FastAPI backend a durable store on
+-- Supabase while preserving its existing load/save semantics.
+CREATE TABLE IF NOT EXISTS civic_store (
+    key TEXT PRIMARY KEY,
+    value JSONB NOT NULL,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- ============================================================
+-- STORAGE BUCKET for uploaded complaint images / videos
+-- ============================================================
+-- Public read so <img> tags render; the backend writes using the
+-- service-role key which bypasses RLS.
+INSERT INTO storage.buckets (id, name, public)
+VALUES ('complaints', 'complaints', TRUE)
+ON CONFLICT (id) DO NOTHING;
+
+-- Allow public read of objects in the complaints bucket.
+DROP POLICY IF EXISTS "Public read complaints bucket" ON storage.objects;
+CREATE POLICY "Public read complaints bucket"
+    ON storage.objects FOR SELECT
+    USING (bucket_id = 'complaints');

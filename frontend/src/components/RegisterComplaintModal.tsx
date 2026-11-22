@@ -101,7 +101,7 @@ export const RegisterComplaintModal: React.FC<RegisterComplaintModalProps> = ({
       }
       formData.append('description', descText);
 
-      const res = await axios.post('http://localhost:8000/api/ai/analyze-image', formData, {
+      const res = await axios.post('/api/ai/analyze-image', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
       setAiResult(res.data);
@@ -174,7 +174,7 @@ export const RegisterComplaintModal: React.FC<RegisterComplaintModalProps> = ({
         image_url: imagePreview || 'https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=600'
       };
 
-      const res = await axios.post('http://localhost:8000/api/complaints', payload);
+      const res = await axios.post('/api/complaints', payload);
       onSuccess(res.data);
       onClose();
     } catch (err) {

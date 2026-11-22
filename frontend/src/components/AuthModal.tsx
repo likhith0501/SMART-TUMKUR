@@ -82,7 +82,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
     setLoading(true);
     resetFeedback();
     try {
-      const res = await axios.post('http://localhost:8000/api/auth/citizen/login', {
+      const res = await axios.post('/api/auth/citizen/login', {
         phone: citPhone,
         password: citPassword
       });
@@ -115,7 +115,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
     setLoading(true);
     resetFeedback();
     try {
-      const res = await axios.post('http://localhost:8000/api/auth/citizen/register', {
+      const res = await axios.post('/api/auth/citizen/register', {
         full_name: regName,
         phone: regPhone,
         password: regPassword,
@@ -153,7 +153,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
     setLoading(true);
     resetFeedback();
     try {
-      const res = await axios.post('http://localhost:8000/api/auth/citizen/forgot-password', {
+      const res = await axios.post('/api/auth/citizen/forgot-password', {
         phone: forgotPhone,
         email: forgotEmail,
         new_password: forgotNewPassword
@@ -178,7 +178,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
     setLoading(true);
     resetFeedback();
     try {
-      const res = await axios.post('http://localhost:8000/api/auth/admin-login', {
+      const res = await axios.post('/api/auth/admin-login', {
         username: adminUsername,
         password: adminPassword
       });
@@ -198,7 +198,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
     setLoading(true);
     resetFeedback();
     try {
-      const res = await axios.post('http://localhost:8000/api/auth/staff-login', {
+      const res = await axios.post('/api/auth/staff-login', {
         username: staffUsername,
         password: staffPassword
       });

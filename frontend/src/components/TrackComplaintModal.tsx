@@ -52,7 +52,7 @@ export const TrackComplaintModal: React.FC<TrackComplaintModalProps> = ({
     setLoading(true);
     setErrorMsg('');
     try {
-      const res = await axios.get(`http://localhost:8000/api/complaints/${trackingId.trim()}`);
+      const res = await axios.get(`/api/complaints/${trackingId.trim()}`);
       setTrackedComplaint(res.data);
     } catch (err: any) {
       // Local fallback lookup
